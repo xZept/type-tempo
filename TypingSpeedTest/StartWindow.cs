@@ -27,5 +27,11 @@ namespace TypingSpeedTest
             frmMainWindow frm = new frmMainWindow();
             frm.Show();
         }
+
+        private void btnHistory_Click(object sender, EventArgs e)
+        {
+            frmHistory frm = new frmHistory();
+            frm.Show();
+        }
     }
 }
