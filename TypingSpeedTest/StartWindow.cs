@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TypingSpeedTest
 {
-    public partial class StartWindow : Form
+    public partial class frmStartWindow : Form
     {
-        public StartWindow()
+        public frmStartWindow()
         {
             InitializeComponent();
         }
@@ -20,6 +20,12 @@ namespace TypingSpeedTest
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            frmMainWindow frm = new frmMainWindow();
+            frm.Show();
         }
     }
 }
