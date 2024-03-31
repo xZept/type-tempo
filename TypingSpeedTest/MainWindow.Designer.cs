@@ -59,6 +59,7 @@
             this.btnRetry.Size = new System.Drawing.Size(62, 67);
             this.btnRetry.TabIndex = 2;
             this.btnRetry.UseVisualStyleBackColor = false;
+            this.btnRetry.Click += new System.EventHandler(this.btnRetry_Click);
             // 
             // lblStartTyping
             // 
@@ -67,7 +68,7 @@
             this.lblStartTyping.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(236)))), ((int)(((byte)(239)))));
             this.lblStartTyping.Location = new System.Drawing.Point(249, 26);
             this.lblStartTyping.Name = "lblStartTyping";
-            this.lblStartTyping.Size = new System.Drawing.Size(321, 46);
+            this.lblStartTyping.Size = new System.Drawing.Size(329, 47);
             this.lblStartTyping.TabIndex = 3;
             this.lblStartTyping.Text = "START TYPING";
             // 
@@ -88,9 +89,8 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txtUserInput;
         private System.Windows.Forms.Button btnRetry;
         private System.Windows.Forms.Label lblStartTyping;
+        public System.Windows.Forms.TextBox txtUserInput;
     }
 }

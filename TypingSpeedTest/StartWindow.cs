@@ -24,12 +24,18 @@ namespace TypingSpeedTest
 
         private void btnStart_Click(object sender, EventArgs e)
         {
+            // Open the main window
             frmMainWindow frm = new frmMainWindow();
             frm.Show();
+
+            // Display the given text to be typed in the text box
+            // TODO: Database.getWords();
+
         }
 
         private void btnHistory_Click(object sender, EventArgs e)
         {
+            // Open history window
             frmHistory frm = new frmHistory();
             frm.Show();
         }

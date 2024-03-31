@@ -16,5 +16,10 @@ namespace TypingSpeedTest
         {
             InitializeComponent();
         }
+
+        private void btnRetry_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
